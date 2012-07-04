@@ -1,0 +1,84 @@
+.jqtlContainer
+{
+    padding:0px;
+    font-family:Segoe UI;
+    display:inline-block;
+}
+.jqtlTlDiv
+{
+	padding:0px;
+	display:inline-block;
+	overflow:auto;
+	position:relative;
+}
+.jqtlLegendDiv {
+	padding:0px;
+	display:inline-block;
+	color:#545968;
+	
+}
+.jqtlDay
+{
+    background-color:#efefef;
+    border-left-width:0px;
+    border-left-color:#cccccc;
+    border-left-style:solid;
+    height:100%;
+    padding:0px;
+    background-image:url('images/gridline.png');
+    background-repeat:repeat-y;
+    cursor:move;
+}
+.jqtlDayHover
+{
+    background-color:#f5f5f5;
+}
+	
+
+.jqtlLegendDay
+{
+    padding:0px;
+    font-size:smaller;
+    background-image:url('images/gridline.png');
+    background-repeat:repeat-y;
+}
+
+.jqtlLegendMonth
+{
+/*    border-color:Blue;
+    border-width:1px;
+    border-style:solid;*/
+    padding:0px;
+    height:20px;
+    font-size:smaller;
+}
+
+
+.jqtlWeekend
+{
+    background-color:#dfdfdf;
+}
+
+.jqtlEvent
+{
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+	display:inline-block;
+    position:absolute;
+    border-radius:4px;
+    border-color:#778993;
+    border-style:solid;
+    border-width:0px;
+    cursor:pointer;
+    -moz-box-shadow: 5px 5px 2px #aaa;
+    -webkit-box-shadow: 5px 5px 2px #aaa;
+    box-shadow: 5px 5px 2px #aaa;
+    color:#2F323A;
+}
